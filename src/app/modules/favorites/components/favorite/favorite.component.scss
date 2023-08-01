@@ -1,0 +1,8 @@
+@import "src/assets/styles/_variables.scss";
+
+.favorite{
+  display: flex;
+  gap: $gap;
+  justify-content: space-between;
+  align-items: center;
+}

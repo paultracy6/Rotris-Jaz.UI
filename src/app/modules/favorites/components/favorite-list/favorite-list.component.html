@@ -1,0 +1,7 @@
+<div>
+  <ng-container *ngFor="let favorite of favorites$ | async">
+    <div class="favorite-item">
+      <app-favorite [favorite]="favorite"></app-favorite>
+    </div>
+  </ng-container>
+</div>

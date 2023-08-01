@@ -1,0 +1,9 @@
+<div class="menu">
+  <ng-container *ngFor="let item of menuItems">
+    <div class="menu-item">
+      <app-menu-item [menuItem]="item"
+                     (itemSelected)="itemSelected.emit(item)">
+      </app-menu-item>
+    </div>
+  </ng-container>
+</div>

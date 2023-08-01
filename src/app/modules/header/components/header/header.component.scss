@@ -1,0 +1,7 @@
+@import "src/assets/styles/variables";
+.header {
+  display: flex;
+  padding: calc($gap / 2);
+  justify-content: space-between;
+  border-bottom: $border;
+}

@@ -1,0 +1,17 @@
+@import "./assets/styles/rocket";
+@import "./assets/styles/variables";
+@import "./assets/styles/layout";
+
+/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: RocketSans, Arial, Verdana, Tahoma, sans-serif;
+  overflow: hidden;
+  font-size: $base-px;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: $darkgray-color;
+  color: $white-color;
+}

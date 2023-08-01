@@ -1,0 +1,22 @@
+@import "src/assets/styles/variables";
+
+.rita {
+  display: flex;
+  align-items: flex-end;
+  gap: $gap;
+  & h1 {
+    margin: 0;
+  }
+  &-title {
+    font-size: calc($gap * 2);
+    &-container {
+      display: flex;
+      font-weight: bold;
+      align-items: flex-end;
+      gap: calc($gap / 2);
+    }
+  }
+  &-subtitle {
+    margin-bottom: 4px;
+  }
+}

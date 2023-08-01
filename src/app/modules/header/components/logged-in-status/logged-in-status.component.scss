@@ -1,0 +1,7 @@
+@import "src/assets/styles/variables";
+
+.loggedIn {
+  display: flex;
+  gap: calc($gap / 2);
+  align-items: flex-end;
+}

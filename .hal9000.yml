@@ -1,0 +1,7 @@
+platform: 'linux'
+image: 'circleci'
+
+dist: '.artifact'
+build:
+    - 'unpack-build-from-circleci ".artifact"'
+    - 'rm .hal9000.yml'

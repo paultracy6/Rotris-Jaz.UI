@@ -1,0 +1,10 @@
+@import "src/assets/styles/variables";
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: $gap * 0.5;
+  &-item {
+    width: 100%;
+  }
+}

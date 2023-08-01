@@ -1,0 +1,10 @@
+@import "src/assets/styles/variables";
+
+.heading-title{
+  padding: calc($gap/2) $gap;
+  margin-bottom: $item-space;
+}
+
+h2{
+  margin: 0;
+}

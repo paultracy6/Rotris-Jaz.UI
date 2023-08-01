@@ -1,0 +1,15 @@
+<div class="app-container">
+  <app-header [username]="username"></app-header>
+  <div class="drawer-container">
+    <mat-drawer-container class="site-container">
+      <mat-drawer mode="side"
+                  opened>
+        <app-menu [menuItems]="(menuItems$ | async)!"
+                  (itemSelected)="menuItemSelected($event)"></app-menu>
+      </mat-drawer>
+      <mat-drawer-content>
+        <router-outlet></router-outlet>
+      </mat-drawer-content>
+    </mat-drawer-container>
+  </div>
+</div>

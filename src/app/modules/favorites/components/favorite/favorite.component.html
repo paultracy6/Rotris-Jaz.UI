@@ -1,0 +1,15 @@
+<mat-card>
+  <mat-card-content>
+    <div class="favorite">
+      <div>
+        {{ favorite.name }}
+      </div>
+      <div>
+        {{ favorite.type | favorite | titlecase }}
+      </div>
+      <div>
+        <button color="primary" mat-flat-button>View</button>
+      </div>
+    </div>
+  </mat-card-content>
+</mat-card>

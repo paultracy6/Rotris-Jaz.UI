@@ -1,0 +1,6 @@
+@import "src/assets/styles/variables";
+
+img {
+  width: calc($gap * 2);
+  height: calc($gap * 2);
+}

@@ -1,0 +1,11 @@
+@import "src/assets/styles/variables";
+
+.content {
+  height: 100%;
+
+  &-row{
+    display: flex;
+    gap: $gap;
+    margin-bottom: $gap;
+  }
+}

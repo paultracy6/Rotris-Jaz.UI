@@ -1,0 +1,6 @@
+<button mat-button
+        [disabled]="disabled"
+        (click)="itemSelected.emit()">
+  <mat-icon>{{menuItem.icon}}</mat-icon>
+  {{menuItem.name}}
+</button>

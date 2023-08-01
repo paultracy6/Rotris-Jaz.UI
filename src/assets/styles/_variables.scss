@@ -1,0 +1,13 @@
+$base-px: 16px;
+$gap: $base-px;
+
+$shadow-color: #ddd;
+$darkgray-color: #202020;
+$charcoal-color: #2b2b2b;
+$white-color: #fff;
+
+$border: calc($gap/8) solid $white-color;
+
+$item-space: $gap * 0.2;
+
+$font-size: $base-px;
