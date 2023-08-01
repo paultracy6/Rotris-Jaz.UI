@@ -1,5 +1,0 @@
-platform: 'linux'
-image: 'iac'
-
-build:  'plan-terraform-v3'
-deploy: 'apply-terraform-v3'
